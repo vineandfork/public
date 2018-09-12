@@ -1,44 +1,64 @@
 {
   "assetsByChunkName": {
-    "commons": [
-      "commons-1d2014835fc5dbcf42d1.js",
-      "commons-1d2014835fc5dbcf42d1.js.map"
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-7485cdd33f88841d857d.js",
+      "component---src-pages-index-js-7485cdd33f88841d857d.js.map"
     ],
-    "layout-component---index": [
-      "layout-component---index-b0aeb85730ef0d959660.js",
-      "layout-component---index-b0aeb85730ef0d959660.js.map"
+    "path---": [
+      "path----8813d0b5603c34541be7.js",
+      "path----8813d0b5603c34541be7.js.map"
     ],
-    "page-component---src-pages-page-2-js": [
-      "page-component---src-pages-page-2-js-074ea394aeca318bc48c.js",
-      "page-component---src-pages-page-2-js-074ea394aeca318bc48c.js.map"
+    "component---src-pages-contact-js": [
+      "component---src-pages-contact-js-22d5dbae1eee96a5e104.js",
+      "component---src-pages-contact-js-22d5dbae1eee96a5e104.js.map"
     ],
-    "page-component---src-pages-index-js": [
-      "page-component---src-pages-index-js-c8fd538af748c8804761.js",
-      "page-component---src-pages-index-js-c8fd538af748c8804761.js.map"
+    "component---src-pages-our-wines-js": [
+      "component---src-pages-our-wines-js-a75d0a273adcc01c9f5e.js",
+      "component---src-pages-our-wines-js-a75d0a273adcc01c9f5e.js.map"
     ],
-    "path---page-2": [
-      "path---page-2-586c7e095e534a3909ec.js",
-      "path---page-2-586c7e095e534a3909ec.js.map"
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-dded73e7a00402127679.js",
+      "component---src-layouts-index-js-dded73e7a00402127679.js.map"
     ],
     "path---index": [
-      "path---index-586c7e095e534a3909ec.js",
-      "path---index-586c7e095e534a3909ec.js.map"
+      "path---index-001b70e208ef42d5c9d6.js",
+      "path---index-001b70e208ef42d5c9d6.js.map"
     ],
-    "path---404": [
-      "path---404-586c7e095e534a3909ec.js",
-      "path---404-586c7e095e534a3909ec.js.map"
+    "component---src-pages-reviews-js": [
+      "component---src-pages-reviews-js-a216502ca76ca8496b6c.js",
+      "component---src-pages-reviews-js-a216502ca76ca8496b6c.js.map"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
+    ],
+    "commons": [
+      "commons-a9ff47ca06adfee8e4ce.js",
+      "commons-a9ff47ca06adfee8e4ce.js.map"
+    ],
+    "path---our-wines": [
+      "path---our-wines-a0e39f21c11f6a62c5ab.js",
+      "path---our-wines-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---404-html": [
-      "path---404-html-586c7e095e534a3909ec.js",
-      "path---404-html-586c7e095e534a3909ec.js.map"
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "page-component---src-pages-404-js": [
-      "page-component---src-pages-404-js-dca8a980b0b1295ec85f.js",
-      "page-component---src-pages-404-js-dca8a980b0b1295ec85f.js.map"
+    "path---contact": [
+      "path---contact-a0e39f21c11f6a62c5ab.js",
+      "path---contact-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-94cfc604c14c18a8addb.js",
-      "app-94cfc604c14c18a8addb.js.map"
+      "app-9e4201df778773a48c41.js",
+      "app-9e4201df778773a48c41.js.map"
+    ],
+    "path---reviews": [
+      "path---reviews-a0e39f21c11f6a62c5ab.js",
+      "path---reviews-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
     ]
   }
 }
