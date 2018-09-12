@@ -1,2 +1,0 @@
-webpackJsonp([0x939752651000],{226:function(e,t){"use strict";t.__esModule=!0,t.default=function(){return React.createElement("div",null)},e.exports=t.default}});
-//# sourceMappingURL=component---src-pages-reviews-js-6d0fbc272fe4d0995aeb.js.map

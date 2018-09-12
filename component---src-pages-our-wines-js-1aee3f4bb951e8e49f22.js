@@ -1,2 +1,0 @@
-webpackJsonp([0x651dca788063],{225:function(e,s){"use strict";s.__esModule=!0,s.default="sup bae",e.exports=s.default}});
-//# sourceMappingURL=component---src-pages-our-wines-js-1aee3f4bb951e8e49f22.js.map
