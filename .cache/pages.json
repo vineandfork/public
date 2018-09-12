@@ -1,0 +1,22 @@
+[
+    {
+        "componentChunkName": "page-component---src-pages-404-js",
+        "jsonName": "404.json",
+        "path": "/404/"
+    },
+    {
+        "componentChunkName": "page-component---src-pages-index-js",
+        "jsonName": "index.json",
+        "path": "/"
+    },
+    {
+        "componentChunkName": "page-component---src-pages-page-2-js",
+        "jsonName": "page-2.json",
+        "path": "/page-2/"
+    },
+    {
+        "componentChunkName": "page-component---src-pages-404-js",
+        "jsonName": "404-html.json",
+        "path": "/404.html"
+    }
+]
