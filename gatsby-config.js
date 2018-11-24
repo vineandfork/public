@@ -29,6 +29,13 @@ module.exports = {
         },
       },
     },
+    {
+      resolve: 'gatsby-plugin-copy-files',
+      options: {
+        source: `${__dirname}/src/public/CNAME`,
+        destination: 'CNAME',
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-sass`,
