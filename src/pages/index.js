@@ -333,18 +333,10 @@ const IndexPage = ({ data }) => {
 
         <div className="intro-body">
           <div className="container">
-            <Img
-              style={{
-                position: `absolute`,
-                top: 0,
-                left: 0,
-                right: 0,
-                zIndex: -1,
-                width: 200,
-                height: 200,
-                margin: '110px auto',
-              }}
-              sizes={data.logo.sizes}
+            <img
+              src={data.logo.resize.src}
+              style={{ height: '25vh' }}
+              alt="vine and fork logo"
             />
             <div className="row">
               <div className="mx-auto">
@@ -451,8 +443,8 @@ export const pageQuery = graphql`
       }
     }
     logo: imageSharp(id: { regex: "/logo/" }) {
-      sizes(maxWidth: 441) {
-        ...GatsbyImageSharpSizes_withWebp
+      resize(width: 440) {
+        src
       }
     }
   }
