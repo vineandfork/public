@@ -443,7 +443,7 @@ export const pageQuery = graphql`
       }
     }
     logo: imageSharp(id: { regex: "/logo/" }) {
-      resize(width: 440) {
+      resize(width: 200) {
         src
       }
     }
