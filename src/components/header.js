@@ -32,14 +32,14 @@ class SimpleTabs extends React.Component {
   }
 
   componentDidMount() {
-    this.setState({
-      value: window.location.pathname,
-    })
+    // this.setState({
+    //   value: window.location.pathname,
+    // })
   }
 
   handleChange = (event, value) => {
     navigateTo(value)
-    this.setState({ value })
+    // this.setState({ value })
   }
 
   render() {
@@ -63,19 +63,20 @@ class SimpleTabs extends React.Component {
                   About
                 </a>
               </li>
+              {/* <li className="nav-item">
+                <a className="nav-link js-scroll-trigger" href="#wines">
+                  wines
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link js-scroll-trigger" href="#reviews">
+                  Reviews
+                </a>
+              </li> */}
               <li className="nav-item">
                 <a className="nav-link js-scroll-trigger" href="#contact">
                   Contact
                 </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link js-scroll-trigger" href="#contact">
-                  Reviews
-                </a>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link js-scroll-trigger" to="/our-wines/">wines </Link>
-
               </li>
             </ul>
           </div>

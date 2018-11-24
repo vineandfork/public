@@ -10,22 +10,18 @@ const Layout = ({ children, data }) => (
     <Helmet
       title={data.site.siteMetadata.title}
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        {
+          name: 'description',
+          content: 'vine & fork a wine concierge service',
+        },
+        {
+          name: 'keywords',
+          content: 'wine, concierge, service, vine & fork, vine, fork',
+        },
       ]}
     >
       <link
-        href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic"
-        rel="stylesheet"
-        type="text/css"
-      />
-      <link
-        href="https://fonts.googleapis.com/css?family=Cabin:700"
-        rel="stylesheet"
-        type="text/css"
-      />
-      <link
-        href="https://fonts.googleapis.com/css?family=Roboto"
+        href="https://fonts.googleapis.com/css?family=Montserrat"
         rel="stylesheet"
       />
     </Helmet>
