@@ -347,8 +347,8 @@ const IndexPage = ({ data }) => {
               sizes={data.logo.sizes}
             />
             <div className="row">
-              <div className="col-lg-4 col-xl-7 mx-auto">
-                <h1 className="brand-heading mt-9">vine &amp; fork</h1>
+              <div className="mx-auto">
+                <h1 className="brand-heading ">vine &amp; fork</h1>
                 <p className="intro-text">wine concierge service</p>
                 <a href="#about" className="btn btn-circle js-scroll-trigger">
                   <i className="fa fa-angle-double-down animated" />
