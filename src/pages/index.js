@@ -335,7 +335,7 @@ const IndexPage = ({ data }) => {
           <div className="container">
             <img
               src={data.logo.resize.src}
-              style={{ height: '25vh' }}
+              style={{ height: '25vh', marginTop: 100 }}
               alt="vine and fork logo"
             />
             <div className="row">
