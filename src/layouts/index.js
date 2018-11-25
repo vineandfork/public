@@ -19,12 +19,7 @@ const Layout = ({ children, data }) => (
           content: 'wine, concierge, service, vine & fork, vine, fork',
         },
       ]}
-    >
-      <link
-        href="https://fonts.googleapis.com/css?family=Montserrat"
-        rel="stylesheet"
-      />
-    </Helmet>
+    />
     <Header siteTitle={data.site.siteMetadata.title} />
     {children()}
   </div>

@@ -52,7 +52,11 @@ class SimpleTabs extends React.Component {
         id="mainNav"
       >
         <div className="container">
-          <a className="navbar-brand js-scroll-trigger" href="#page-top">
+          <a
+            className="navbar-brand js-scroll-trigger"
+            href="#page-top"
+            aria-label="Page Top"
+          >
             {/* Start Bootstrap */}
           </a>
 

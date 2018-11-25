@@ -21,7 +21,7 @@ module.exports = class HTML extends React.Component {
       )
     }
     return (
-      <html {...this.props.htmlAttributes}>
+      <html lang="en" {...this.props.htmlAttributes}>
         <head>
           <script
             async

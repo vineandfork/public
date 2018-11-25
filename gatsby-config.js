@@ -30,6 +30,14 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: ['Montserrat'],
+        },
+      },
+    },
+    {
       resolve: 'gatsby-plugin-copy-files',
       options: {
         source: `${__dirname}/src/public/CNAME`,

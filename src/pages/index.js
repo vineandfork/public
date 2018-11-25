@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react'
 import Img from 'gatsby-image'
+
 // import Expando from '../components/expando'
 
 // {
@@ -315,117 +316,125 @@ import Img from 'gatsby-image'
 //         </div>
 //       </section> */}
 
-const IndexPage = ({ data }) => {
-  return (
-    <Fragment>
-      <header className="masthead">
-        <Img
-          style={{
-            position: `absolute`,
-            top: 0,
-            left: 0,
-            right: 0,
-            zIndex: -1,
-            height: '100%',
-          }}
-          sizes={data.mainImage.sizes}
-        />
+class IndexPage extends React.Component {
+  render() {
+    const { data } = this.props
+    return (
+      <Fragment>
+        <header className="masthead">
+          <Img
+            style={{
+              position: `absolute`,
+              top: 0,
+              left: 0,
+              right: 0,
+              zIndex: -1,
+              height: '100%',
+            }}
+            sizes={data.mainImage.sizes}
+          />
 
-        <div className="intro-body">
-          <div className="container">
-            <img
-              src={data.logo.resize.src}
-              style={{ height: '25vh', marginTop: 100 }}
-              alt="vine and fork logo"
-            />
-            <div className="row">
-              <div className="mx-auto">
-                <h1 className="brand-heading ">vine &amp; fork</h1>
-                <p className="intro-text">wine concierge service</p>
-                <a href="#about" className="btn btn-circle js-scroll-trigger">
-                  <i className="fa fa-angle-double-down animated" />
-                </a>
+          <div className="intro-body">
+            <div className="container">
+              <img
+                src={data.logo.resize.src}
+                style={{ height: '25vh', marginTop: 100 }}
+                alt="vine and fork logo"
+              />
+              <div className="row">
+                <div className="mx-auto">
+                  <h1 className="brand-heading ">vine &amp; fork</h1>
+                  <p className="intro-text">wine concierge service</p>
+                  <a
+                    href="#about"
+                    className="btn btn-circle js-scroll-trigger"
+                    aria-label="about"
+                  >
+                    <i className="fa fa-angle-double-down animated" />
+                  </a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </header>
-      <section id="about" className="content-section text-center">
-        <div>
-          <div className="container">
+        </header>
+        <section id="about" className="content-section text-center">
+          <div>
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-8 mx-auto">
+                  <h2 style={{ color: 'black' }}>about</h2>
+
+                  <p>
+                    At vine &amp; fork we bring Sommelier selected wines
+                    directly to the hands of the consumer. Our goal is to bring
+                    boutique not commercially distributed wines to meet the
+                    everyday consumers need whether it’s for personal use or a
+                    large event.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          id="contact"
+          className="download-section content-section text-center"
+          style={{ position: 'relative', backgroundColor: null }}
+        >
+          <Img
+            style={{
+              position: `absolute`,
+              top: 0,
+              left: 0,
+              right: 0,
+              zIndex: -1,
+              height: '100%',
+              // width: this.props.windowWidth,
+            }}
+            sizes={data.secondaryImage.sizes}
+          />
+          <div
+            className="container"
+            style={{
+              textShadow:
+                '-1px 0 #00000061, 0 1px #00000061, 1px 0 #00000061, 0 -1px #00000061',
+              fontWeight: 'bold',
+              color: 'white',
+            }}
+          >
             <div className="row">
               <div className="col-lg-8 mx-auto">
-                <h2 style={{ color: 'black' }}>about</h2>
+                <h2>contact</h2>
+                <p>Follow us on instagram or reach out by email</p>
+                <ul className="list-inline banner-social-buttons">
+                  <li className="list-inline-item">
+                    <a
+                      href="https://www.instagram.com/vineandfork/"
+                      className="btn btn-default btn-lg"
+                    >
+                      <i className="fa fa-instagram fa-fw" />
+                      <span className="network-name">Instagram</span>
+                    </a>
+                  </li>
 
-                <p>
-                  At vine &amp; fork we bring Sommelier selected wines directly
-                  to the hands of the consumer. Our goal is to bring boutique
-                  not commercially distributed wines to meet the everyday
-                  consumers need whether it’s for personal use or a large event.
-                </p>
+                  <li className="list-inline-item">
+                    <a
+                      href="mailto:angelina@vineandfork.com"
+                      className="btn btn-default btn-lg"
+                    >
+                      <i className="fa fa-envelope fa-fw" />
+                      <span className="network-name">Email</span>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-
-      <section
-        id="contact"
-        className="download-section content-section text-center"
-        style={{ position: 'relative', backgroundColor: null }}
-      >
-        <Img
-          style={{
-            position: `absolute`,
-            top: 0,
-            left: 0,
-            right: 0,
-            zIndex: -1,
-            height: '100%',
-            // width: this.props.windowWidth,
-          }}
-          sizes={data.secondaryImage.sizes}
-        />
-        <div
-          className="container"
-          style={{
-            textShadow:
-              '-1px 0 #00000061, 0 1px #00000061, 1px 0 #00000061, 0 -1px #00000061',
-            fontWeight: 'bold',
-            color: 'white',
-          }}
-        >
-          <div className="row">
-            <div className="col-lg-8 mx-auto">
-              <h2>contact</h2>
-              <p>Follow us on instagram or reach out by email</p>
-              <ul className="list-inline banner-social-buttons">
-                <li className="list-inline-item">
-                  <a
-                    href="https://www.instagram.com/vineandfork/"
-                    className="btn btn-default btn-lg"
-                  >
-                    <i className="fa fa-instagram fa-fw" />
-                    <span className="network-name">Instagram</span>
-                  </a>
-                </li>
-
-                <li className="list-inline-item">
-                  <a
-                    href="mailto:angelina@vineandfork.com"
-                    className="btn btn-default btn-lg"
-                  >
-                    <i className="fa fa-envelope fa-fw" />
-                    <span className="network-name">Email</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-    </Fragment>
-  )
+        </section>
+      </Fragment>
+    )
+  }
 }
 
 export default IndexPage
