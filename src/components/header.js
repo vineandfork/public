@@ -82,6 +82,11 @@ class SimpleTabs extends React.Component {
                   Contact
                 </a>
               </li>
+              <li className="nav-item">
+                <a className="nav-link" href="https://store.vineandfork.com/">
+                  Store
+                </a>
+              </li>
             </ul>
           </div>
         </div>
